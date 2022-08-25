@@ -1,0 +1,10 @@
+from array import *
+a1=array("i",[6,9,7,5,4,3])
+print(a1[1])
+print(a1[-3])
+a1.remove(5)
+print(a1)
+a1.reverse()
+print(a1)
+a1.insert(4,5)
+print(a1)
